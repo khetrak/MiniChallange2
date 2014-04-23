@@ -19,6 +19,11 @@
 		2AC75C4819082F7D001E1FC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC75C3019082F7D001E1FC1 /* UIKit.framework */; };
 		2AC75C5019082F7D001E1FC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AC75C4E19082F7D001E1FC1 /* InfoPlist.strings */; };
 		2AC75C5219082F7D001E1FC1 /* MiniChallange2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC75C5119082F7D001E1FC1 /* MiniChallange2Tests.m */; };
+		2AC75C5D19082FCF001E1FC1 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC75C5C19082FCF001E1FC1 /* DataManager.m */; };
+		2AC75C6319082FDE001E1FC1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AC75C6119082FDE001E1FC1 /* Model.xcdatamodeld */; };
+		2AC75C6619082FE5001E1FC1 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC75C6519082FE5001E1FC1 /* Score.m */; };
+		2AC75C691908300F001E1FC1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC75C681908300F001E1FC1 /* CoreData.framework */; };
+		2AC75C6B19083014001E1FC1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC75C6A19083014001E1FC1 /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,13 @@
 		2AC75C4D19082F7D001E1FC1 /* MiniChallange2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiniChallange2Tests-Info.plist"; sourceTree = "<group>"; };
 		2AC75C4F19082F7D001E1FC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AC75C5119082F7D001E1FC1 /* MiniChallange2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniChallange2Tests.m; sourceTree = "<group>"; };
+		2AC75C5B19082FCF001E1FC1 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		2AC75C5C19082FCF001E1FC1 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		2AC75C6219082FDE001E1FC1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2AC75C6419082FE5001E1FC1 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		2AC75C6519082FE5001E1FC1 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		2AC75C681908300F001E1FC1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2AC75C6A19083014001E1FC1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC75C6B19083014001E1FC1 /* SpriteKit.framework in Frameworks */,
+				2AC75C691908300F001E1FC1 /* CoreData.framework in Frameworks */,
 				2AC75C2F19082F7D001E1FC1 /* CoreGraphics.framework in Frameworks */,
 				2AC75C3119082F7D001E1FC1 /* UIKit.framework in Frameworks */,
 				2AC75C2D19082F7D001E1FC1 /* Foundation.framework in Frameworks */,
@@ -96,6 +110,8 @@
 		2AC75C2B19082F7D001E1FC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2AC75C6A19083014001E1FC1 /* SpriteKit.framework */,
+				2AC75C681908300F001E1FC1 /* CoreData.framework */,
 				2AC75C2C19082F7D001E1FC1 /* Foundation.framework */,
 				2AC75C2E19082F7D001E1FC1 /* CoreGraphics.framework */,
 				2AC75C3019082F7D001E1FC1 /* UIKit.framework */,
@@ -110,6 +126,7 @@
 				2AC75C3B19082F7D001E1FC1 /* AppDelegate.h */,
 				2AC75C3C19082F7D001E1FC1 /* AppDelegate.m */,
 				2AC75C3E19082F7D001E1FC1 /* Images.xcassets */,
+				2AC75C6719082FEA001E1FC1 /* Core Data */,
 				2AC75C3319082F7D001E1FC1 /* Supporting Files */,
 			);
 			path = MiniChallange2;
@@ -142,6 +159,18 @@
 				2AC75C4E19082F7D001E1FC1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AC75C6719082FEA001E1FC1 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				2AC75C5B19082FCF001E1FC1 /* DataManager.h */,
+				2AC75C5C19082FCF001E1FC1 /* DataManager.m */,
+				2AC75C6119082FDE001E1FC1 /* Model.xcdatamodeld */,
+				2AC75C6419082FE5001E1FC1 /* Score.h */,
+				2AC75C6519082FE5001E1FC1 /* Score.m */,
+			);
+			name = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC75C3D19082F7D001E1FC1 /* AppDelegate.m in Sources */,
+				2AC75C5D19082FCF001E1FC1 /* DataManager.m in Sources */,
+				2AC75C6619082FE5001E1FC1 /* Score.m in Sources */,
 				2AC75C3919082F7D001E1FC1 /* main.m in Sources */,
+				2AC75C6319082FDE001E1FC1 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +481,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2AC75C6119082FDE001E1FC1 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AC75C6219082FDE001E1FC1 /* Model.xcdatamodel */,
+			);
+			currentVersion = 2AC75C6219082FDE001E1FC1 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2AC75C2119082F7D001E1FC1 /* Project object */;
 }
