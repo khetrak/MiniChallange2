@@ -24,6 +24,7 @@
 		2AC75C6619082FE5001E1FC1 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC75C6519082FE5001E1FC1 /* Score.m */; };
 		2AC75C691908300F001E1FC1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC75C681908300F001E1FC1 /* CoreData.framework */; };
 		2AC75C6B19083014001E1FC1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC75C6A19083014001E1FC1 /* SpriteKit.framework */; };
+		E09FB8E1190852BE009FCA10 /* Fase.m in Sources */ = {isa = PBXBuildFile; fileRef = E09FB8E0190852BE009FCA10 /* Fase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		2AC75C6519082FE5001E1FC1 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
 		2AC75C681908300F001E1FC1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2AC75C6A19083014001E1FC1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		E09FB8DF190852BE009FCA10 /* Fase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fase.h; sourceTree = "<group>"; };
+		E09FB8E0190852BE009FCA10 /* Fase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,7 @@
 				2AC75C3B19082F7D001E1FC1 /* AppDelegate.h */,
 				2AC75C3C19082F7D001E1FC1 /* AppDelegate.m */,
 				2AC75C3E19082F7D001E1FC1 /* Images.xcassets */,
+				E09FB8DE19085283009FCA10 /* Scenes */,
 				2AC75C6719082FEA001E1FC1 /* Core Data */,
 				2AC75C3319082F7D001E1FC1 /* Supporting Files */,
 			);
@@ -171,6 +175,15 @@
 				2AC75C6519082FE5001E1FC1 /* Score.m */,
 			);
 			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		E09FB8DE19085283009FCA10 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E09FB8DF190852BE009FCA10 /* Fase.h */,
+				E09FB8E0190852BE009FCA10 /* Fase.m */,
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			files = (
 				2AC75C3D19082F7D001E1FC1 /* AppDelegate.m in Sources */,
 				2AC75C5D19082FCF001E1FC1 /* DataManager.m in Sources */,
+				E09FB8E1190852BE009FCA10 /* Fase.m in Sources */,
 				2AC75C6619082FE5001E1FC1 /* Score.m in Sources */,
 				2AC75C3919082F7D001E1FC1 /* main.m in Sources */,
 				2AC75C6319082FDE001E1FC1 /* Model.xcdatamodeld in Sources */,
@@ -471,6 +485,7 @@
 				2AC75C5719082F7D001E1FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AC75C5819082F7D001E1FC1 /* Build configuration list for PBXNativeTarget "MiniChallange2Tests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +494,7 @@
 				2AC75C5A19082F7D001E1FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
