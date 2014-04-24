@@ -25,6 +25,7 @@
 		2AC75C691908300F001E1FC1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC75C681908300F001E1FC1 /* CoreData.framework */; };
 		2AC75C6B19083014001E1FC1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC75C6A19083014001E1FC1 /* SpriteKit.framework */; };
 		E09FB8E1190852BE009FCA10 /* Fase.m in Sources */ = {isa = PBXBuildFile; fileRef = E09FB8E0190852BE009FCA10 /* Fase.m */; };
+		E09FB8E5190855F7009FCA10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09FB8E4190855F7009FCA10 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		2AC75C6A19083014001E1FC1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		E09FB8DF190852BE009FCA10 /* Fase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fase.h; sourceTree = "<group>"; };
 		E09FB8E0190852BE009FCA10 /* Fase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fase.m; sourceTree = "<group>"; };
+		E09FB8E3190855F7009FCA10 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E09FB8E4190855F7009FCA10 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +129,7 @@
 		2AC75C3219082F7D001E1FC1 /* MiniChallange2 */ = {
 			isa = PBXGroup;
 			children = (
-				2AC75C3B19082F7D001E1FC1 /* AppDelegate.h */,
-				2AC75C3C19082F7D001E1FC1 /* AppDelegate.m */,
-				2AC75C3E19082F7D001E1FC1 /* Images.xcassets */,
+				E09FB8E2190855B7009FCA10 /* delegate/outros */,
 				E09FB8DE19085283009FCA10 /* Scenes */,
 				2AC75C6719082FEA001E1FC1 /* Core Data */,
 				2AC75C3319082F7D001E1FC1 /* Supporting Files */,
@@ -173,6 +174,7 @@
 				2AC75C6119082FDE001E1FC1 /* Model.xcdatamodeld */,
 				2AC75C6419082FE5001E1FC1 /* Score.h */,
 				2AC75C6519082FE5001E1FC1 /* Score.m */,
+				2AC75C3E19082F7D001E1FC1 /* Images.xcassets */,
 			);
 			name = "Core Data";
 			sourceTree = "<group>";
@@ -184,6 +186,17 @@
 				E09FB8E0190852BE009FCA10 /* Fase.m */,
 			);
 			name = Scenes;
+			sourceTree = "<group>";
+		};
+		E09FB8E2190855B7009FCA10 /* delegate/outros */ = {
+			isa = PBXGroup;
+			children = (
+				2AC75C3B19082F7D001E1FC1 /* AppDelegate.h */,
+				2AC75C3C19082F7D001E1FC1 /* AppDelegate.m */,
+				E09FB8E3190855F7009FCA10 /* ViewController.h */,
+				E09FB8E4190855F7009FCA10 /* ViewController.m */,
+			);
+			name = delegate/outros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09FB8E5190855F7009FCA10 /* ViewController.m in Sources */,
 				2AC75C3D19082F7D001E1FC1 /* AppDelegate.m in Sources */,
 				2AC75C5D19082FCF001E1FC1 /* DataManager.m in Sources */,
 				E09FB8E1190852BE009FCA10 /* Fase.m in Sources */,

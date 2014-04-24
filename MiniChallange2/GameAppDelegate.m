@@ -1,29 +1,21 @@
 //
-//  AppDelegate.m
-//  MiniChallange2
+//  GameAppDelegate.m
+//  testejogocriança1
 //
-//  Created by Rafael Gonçalves on 4/23/14.
-//  Copyright (c) 2014 BEPiD. All rights reserved.
+//  Created by Lucas Mendanha Filardi on 4/22/14.
+//  Copyright (c) 2014 MiniChal2. All rights reserved.
 //
 
-#import "AppDelegate.h"
-#import "ViewController.h"
+#import "GameAppDelegate.h"
 
-@implementation AppDelegate
+@implementation GameAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    ViewController *viewController = [[ViewController alloc] init];
-    
-    self.window.rootViewController = viewController;
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
