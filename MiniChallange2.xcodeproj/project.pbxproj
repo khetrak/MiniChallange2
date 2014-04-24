@@ -26,6 +26,7 @@
 		2AC75C6B19083014001E1FC1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC75C6A19083014001E1FC1 /* SpriteKit.framework */; };
 		E09FB8E1190852BE009FCA10 /* Fase.m in Sources */ = {isa = PBXBuildFile; fileRef = E09FB8E0190852BE009FCA10 /* Fase.m */; };
 		E09FB8E5190855F7009FCA10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09FB8E4190855F7009FCA10 /* ViewController.m */; };
+		E0A2A8E119098BA1005A8389 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A2A8E319098BA1005A8389 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		E09FB8E0190852BE009FCA10 /* Fase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fase.m; sourceTree = "<group>"; };
 		E09FB8E3190855F7009FCA10 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E09FB8E4190855F7009FCA10 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0A2A8E219098BA1005A8389 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				2AC75C3C19082F7D001E1FC1 /* AppDelegate.m */,
 				E09FB8E3190855F7009FCA10 /* ViewController.h */,
 				E09FB8E4190855F7009FCA10 /* ViewController.m */,
+				E0A2A8E319098BA1005A8389 /* Storyboard.storyboard */,
 			);
 			name = delegate/outros;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				2AC75C3719082F7D001E1FC1 /* InfoPlist.strings in Resources */,
 				2AC75C3F19082F7D001E1FC1 /* Images.xcassets in Resources */,
+				E0A2A8E119098BA1005A8389 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +341,14 @@
 				2AC75C4F19082F7D001E1FC1 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0A2A8E319098BA1005A8389 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0A2A8E219098BA1005A8389 /* en */,
+			);
+			name = Storyboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
